@@ -16,7 +16,7 @@ This dataset contains 165,673 image and corresponding text line files (.png for 
 ## Contact
 In case of questions, pleas contact
 - Prof. Dr. Tobias Hodel, tobias.hodel@unibe.ch
-- Phillip Ströbel (MA), pstroebel@cl.uzh.ch
+- MA Phillip Ströbel, pstroebel@cl.uzh.ch
 
 ## Publications
 The dataset is described (and used) in more detail in the following publications:
