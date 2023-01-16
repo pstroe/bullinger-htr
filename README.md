@@ -3,7 +3,7 @@ A repository containing images and corresponding text segments for the training 
 
 
 ## Description
-This dataset contains 165,673 image and corresponding text line files (.png for images and .txt for the corresponding texts) in a 80/10/10 training, validation and test set split. The source is the extensive correspondence of Swiss reformer [Heinrich Bullinger (1504-1575)](https://hls-dhs-dss.ch/de/articles/010443/2011-04-07/) and his over 800 different correspondents. It therefore contains great variety in handwriting styles. Furthermore, it is multilingual since there are Latin and Early New High German (and sometimes mixed) letters. The data is split into Latin and Early New High German (determined with [langid](https://pypi.org/project/langid/)).
+This dataset contains 165,673 image and corresponding text line files (.png for images and .txt for the corresponding texts) in a 80/10/10 training, validation and test set split. The source is the extensive correspondence of Swiss reformer [Heinrich Bullinger (1504-1575)](https://hls-dhs-dss.ch/de/articles/010443/2011-04-07/) and his over 800 different correspondents. It therefore contains great variety in handwriting styles. Furthermore, it is multilingual since there are Latin and Early New High German (and sometimes mixed) letters. The data is split into Latin and Early New High German (determined with [langid](https://pypi.org/project/langid/)) and put into separate folders (```de``` for Early New High German and ```la``` for Latin).
 
 ### Data origins:
 - The **images** have been produced from source scanning (after restauration) of the original letter located at the [Zurich States Archive](https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html) and [Zurich Central Library](https://www.zb.uzh.ch/de). The letters have been scanned with 300dpi and have been submitted to the Bullinger project team as tiffs.
@@ -12,6 +12,22 @@ This dataset contains 165,673 image and corresponding text line files (.png for 
 - The University of Zurich extraced the available alignments as of **April 1, 2022** and cut split the large tiff in lines according to the layout recognition step. The ALTO XML contains polygons as can be seen in the image under (a) below. The image were preprocessed as such that the polygon cut-out was pasted on a randomly generated background based on the texture and colours of the cut-out. The .png files in this repo thus look as under (c) below.
 ![Example of different preprocessing stages.](img-prep.png)
 - The data was then randomly split into training (80%), validation and test (each 10%) set. The topmost .files and .files.png.txt list all the files with relative paths to the respective images and texts.
+
+***IMPORTANT***: Since the alignment between text and image lines happened automatically, it can still contain errors. Also, there could be errors based on the language identification!
+
+### Data organisation
+All the data is available in zipped files or split zip files (especially in the train folder). The split zip files in the ```train``` folder can be unified as follows (with the example of the zip file for the files bearing an id from 0 to 2000):
+
+```
+zip -F 0-2000-out.zip --out single-0-2000.zip
+```
+
+Each file name constiutes the ID of the letter, from which page it was taken, and from which text region and line it was extracted. It follows the following pattern:
+```[ID]_[page #]_r[region #]l[line #].[png|txt]```
+The region and line number are copied from the information from the Transkribus-internal layout recognition tool.
+
+The IDs can be used in the search system (www.bullinger-digital.ch) to search for a letter: ```www.bullinger-digital.ch/letter/[ID]```, e. g., ```www.bullinger-digital.ch/letter/6```.
+
 
 ## Contact
 In case of questions, pleas contact
