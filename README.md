@@ -42,4 +42,6 @@ The dataset is described (and used) in more detail in the following publications
 - Tobias Hodel, Phillip Benjamin Ströbel, Andreas Fischer, Anna Scius-Bertrand, Anna Janka, Jonas Widmer, Beat Wolf, Patricia Scheurer, Martin Volk. (in press). Bullingers Briefwechsel zugänglich machen: Stand der Handschriftenerkennung. In *DHd2023: Open Humanities, Open Culture. Konferenzabstracts (tentative title)*, Luxembourg/Trier, Luxembourg/Germany. 9. Jahrestagung des Verbands Digital Humanities im deutschsprachigen Raum e.V. (link follows)
 - Phillip Benjamin Ströbel. (in press). *Flexible Techniques for Automatic Text Recognition of Historical Documents*. PhD Thesis, Zürich. (link follows)
 
+[![DOI](https://zenodo.org/badge/587775350.svg)](https://zenodo.org/badge/latestdoi/587775350)
+
 [^1]: Heinrich Bullinger Briefwechsel [HBBW], Bd. 1-20, Zürich 1973-2022.
