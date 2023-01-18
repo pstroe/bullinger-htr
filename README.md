@@ -4,7 +4,10 @@ A repository containing line images and corresponding text segments for the trai
 
 ## Description
 This dataset contains 165,673 image and corresponding text line files (```.png``` for images and ```.txt``` for the texts) in a **random** 80/10/10 training, validation and test set split. The source is the extensive correspondence of Swiss reformer [Heinrich Bullinger (1504-1575)](https://hls-dhs-dss.ch/de/articles/010443/2011-04-07/) and his over 800 different correspondents. It therefore contains great variety in handwriting styles. Furthermore, it is multilingual since there are Latin and Early New High German (and sometimes mixed) letters. The data is split into Latin and Early New High German (determined with [langid](https://pypi.org/project/langid/)) and put into separate folders (```de``` for Early New High German and ```la``` for Latin).
-**Note**: The folder ```sample-train``` contains a sample of what the training data (and by extension also the validation and test data) looks like.
+
+**Note 1**: The folder ```sample-train``` contains a sample of what the training data (and by extension also the validation and test data) looks like.
+
+**Note 2**: On Zenodo (link below) the data is not complete. If you want to work with the complete dataset, you need to download it from GitHub.
 
 ### Data origins:
 - The **images** have been produced from source scanning (after restauration) of the original letters located at the [Zurich States Archive](https://www.zh.ch/de/direktion-der-justiz-und-des-innern/staatsarchiv.html) and [Zurich Central Library](https://www.zb.uzh.ch/de). The letters have been scanned with 300dpi and have been submitted to the Bullinger project team as ```.tif```s.
