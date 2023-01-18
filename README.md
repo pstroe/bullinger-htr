@@ -1,6 +1,12 @@
 # Bullinger HTR Dataset
 A repository containing line images and corresponding text segments for the training of handwritten text recognition models of 15th century correspondence in Latin and Early New High German.
 
+**ATTENTION**: To clone this repo, you need to have [Git LFS](https://git-lfs.com/) installed and then clone the repo like so:
+
+```git lfs clone git@github.com:pstroe/bullinger-htr.git```
+
+It will still take about an hour, depending on your internet connection.
+
 
 ## Description
 This dataset contains 165,673 image and corresponding text line files (```.png``` for images and ```.txt``` for the texts) in a **random** 80/10/10 training, validation and test set split. The source is the extensive correspondence of Swiss reformer [Heinrich Bullinger (1504-1575)](https://hls-dhs-dss.ch/de/articles/010443/2011-04-07/) and his over 800 different correspondents. It therefore contains great variety in handwriting styles. Furthermore, it is multilingual since there are Latin and Early New High German (and sometimes mixed) letters. The data is split into Latin and Early New High German (determined with [langid](https://pypi.org/project/langid/)) and put into separate folders (```de``` for Early New High German and ```la``` for Latin).
