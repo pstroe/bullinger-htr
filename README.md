@@ -49,8 +49,8 @@ Anna Janka, Raphael Müller, Peter Rechsteiner, Dr. Patricia Scheurer, David Sel
 
 ## Publications
 The dataset is described (and used) in more detail in the following publications:
-- Tobias Hodel, Phillip Benjamin Ströbel, Andreas Fischer, Anna Scius-Bertrand, Anna Janka, Jonas Widmer, Beat Wolf, Patricia Scheurer, Martin Volk. (in press). Bullingers Briefwechsel zugänglich machen: Stand der Handschriftenerkennung. In *DHd2023: Open Humanities, Open Culture. Konferenzabstracts (tentative title)*, Luxembourg/Trier, Luxembourg/Germany. 9. Jahrestagung des Verbands Digital Humanities im deutschsprachigen Raum e.V. (link follows)
-- Phillip Benjamin Ströbel. (in press). *Flexible Techniques for Automatic Text Recognition of Historical Documents*. PhD Thesis, Zürich. (link follows)
+- Tobias Hodel, Phillip Benjamin Ströbel, Andreas Fischer, Anna Scius-Bertrand, Anna Janka, Jonas Widmer, Beat Wolf, Patricia Scheurer, Martin Volk. 2023. Bullingers Briefwechsel zugänglich machen: Stand der Handschriftenerkennung. In *DHd2023: Open Humanities, Open Culture. Konferenzabstracts (tentative title)*, Luxembourg/Trier, Luxembourg/Germany. 9. Jahrestagung des Verbands Digital Humanities im deutschsprachigen Raum e.V.
+- Phillip Benjamin Ströbel. 2023. *Flexible Techniques for Automatic Text Recognition of Historical Documents*. PhD Thesis, Zürich. [Link](https://doi.org/10.5167/uzh-234886)
 
 [![DOI](https://zenodo.org/badge/587775350.svg)](https://zenodo.org/badge/latestdoi/587775350)
 
