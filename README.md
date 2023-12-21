@@ -42,7 +42,7 @@ The IDs can be used in the search system (www.bullinger-digital.ch) to search fo
 ## Contact
 In case of questions please contact
 - Prof. Dr. Tobias Hodel, tobias.hodel@unibe.ch
-- MA Phillip Ströbel, pstroebel@cl.uzh.ch
+- Dr. Phillip Ströbel, pstroebel@cl.uzh.ch
 
 We would also like to thank the following collaborators for their support in text-to-image alignment, scan identification and matching:
 Anna Janka, Raphael Müller, Peter Rechsteiner, Dr. Patricia Scheurer, David Selim Schoch, Christian Sieber, PD Dr. Raphael Schwitter, Jonas Widmer, Beat Wolf
